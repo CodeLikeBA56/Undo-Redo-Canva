@@ -23,10 +23,10 @@ A small React + Next.js project that demonstrates how to implement Undo and Redo
 
 ## How it Works
 
-    1.	Each time you click on the canvas, a new pointer (circle) is added to the pointers state array.
-    2.	If you perform an undo, the last circle is moved from the pointers stack to a redoStack.
-    3.	If you perform a redo, it moves back from the redoStack to the pointers stack.
-    4.	The UI re-renders automatically to reflect the current state.
+1.	Each time you click on the canvas, a new pointer (circle) is added to the pointers state array.
+2.	If you perform an undo, the last circle is moved from the pointers stack to a redoStack.
+3.	If you perform a redo, it moves back from the redoStack to the pointers stack.
+4.	The UI re-renders automatically to reflect the current state.
     
 ## Keyboard Shortcuts
 
@@ -37,26 +37,26 @@ A small React + Next.js project that demonstrates how to implement Undo and Redo
 
 ## Key Learnings
 
-    1. Managing undo/redo state using two stacks (undo and redo).
-    2. Handling keyboard events safely inside React’s useEffect.
-    3. Using relative positioning to place elements precisely inside a container.
-    4. Preventing default browser undo/redo behavior using e.preventDefault().
+1. Managing undo/redo state using two stacks (undo and redo).
+2. Handling keyboard events safely inside React’s useEffect.
+3. Using relative positioning to place elements precisely inside a container.
+4. Preventing default browser undo/redo behavior using e.preventDefault().
 
 ## Setup & Run
 
-```bash
-1. Clone the repository
 
+```bash
+# Clone the repository
 git clone https://github.com/CodeLikeBA56/Undo-Redo-Canva.git
 
-2. Navigate into the project folder
-    cd Undo-Redo-Canva
+# Navigate into the project folder
+cd Undo-Redo-Canva
 
-3. Install dependencies
-    npm install
+# Install dependencies
+npm install
 
-4. Start the development server
-    npm run dev
+# Start the development server
+npm run dev
 ```
 
 Then open http://localhost:3000 in your browser.

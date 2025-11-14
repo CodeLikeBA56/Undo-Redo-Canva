@@ -1,8 +1,6 @@
-
-# Project Title
+## Project Title
 
 A small React + Next.js project that demonstrates how to implement Undo and Redo functionality using mouse clicks on a canvas-like area. Each click places a circle on the screen, and you can undo or redo your actions using keyboard shortcuts or buttons.
-
 
 ## Features
 
@@ -11,8 +9,6 @@ A small React + Next.js project that demonstrates how to implement Undo and Redo
 - Redo (Ctrl + Y / Cmd + Shift + Z) restores the last undone circle.
 - Circles are placed accurately based on the clicked position.
 - Responsive layout built with Tailwind CSS.
-
-
 
 ## Tech Stack
 
@@ -44,31 +40,27 @@ A small React + Next.js project that demonstrates how to implement Undo and Redo
 
 ## Setup & Run
 
+#### 1. Clone the repository
+    git clone https://github.com/CodeLikeBA56/Undo-Redo-Canva.git
 
-```bash
-# Clone the repository
-git clone https://github.com/CodeLikeBA56/Undo-Redo-Canva.git
+#### 2. Navigate into the project folder
+    cd Undo-Redo-Canva
 
-# Navigate into the project folder
-cd Undo-Redo-Canva
+#### 3. Install dependencies
+    npm install
 
-# Install dependencies
-npm install
+#### 4. Start the development server
+    npm run dev
 
-# Start the development server
-npm run dev
-```
+Then open `http://localhost:3000` in your browser.
 
-Then open http://localhost:3000 in your browser.
-
-    
 ## License
 
 This project is open source and available under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://codelikeba56.github.io/Sameer-Portfolio/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://sameer-shamshad-portfolio.vercel.app/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sameer-shamshad/)
 
